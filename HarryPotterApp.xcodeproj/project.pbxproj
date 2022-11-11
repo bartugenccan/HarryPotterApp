@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7DDD12291ABBBF00E5BF31 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD11291ABBBF00E5BF31 /* StudentsViewController.swift */; };
+		2C7DDD14291ABC4C00E5BF31 /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD13291ABC4C00E5BF31 /* StaffViewController.swift */; };
+		2C7DDD18291ABF7A00E5BF31 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD17291ABF7A00E5BF31 /* TabBarViewController.swift */; };
+		2C7DDD1A291AC44E00E5BF31 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD19291AC44E00E5BF31 /* Student.swift */; };
+		2C7DDD21291AC54800E5BF31 /* StudentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD20291AC54800E5BF31 /* StudentsViewModel.swift */; };
+		2C7DDD25291ACDD300E5BF31 /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7DDD24291ACDD300E5BF31 /* StudentsTableViewCell.swift */; };
+		2C82B669291C062B005F06FE /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2C82B668291C062B005F06FE /* HARRYP__.TTF */; };
+		2C82B66B291C19C6005F06FE /* hermoine.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C82B66A291C19C6005F06FE /* hermoine.json */; };
+		2C9A1214291E9B0400FEC5F9 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A1213291E9B0400FEC5F9 /* StudentDetailViewController.swift */; };
+		2C9A1217291E9C0B00FEC5F9 /* StudentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A1216291E9C0B00FEC5F9 /* StudentDetailViewModel.swift */; };
+		2C9A121A291E9E0D00FEC5F9 /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A1219291E9E0D00FEC5F9 /* StudentDetailView.swift */; };
+		2C9A121C291EA7BC00FEC5F9 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A121B291EA7BC00FEC5F9 /* HexColor.swift */; };
+		2CD500DB291D9F9100B9A005 /* StaffViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD500DA291D9F9100B9A005 /* StaffViewModel.swift */; };
+		2CD500DE291DA12200B9A005 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD500DD291DA12200B9A005 /* Staff.swift */; };
+		2CD500E3291DA2B100B9A005 /* StaffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD500E2291DA2B100B9A005 /* StaffTableViewCell.swift */; };
+		2CE36F8C291AA922001E1B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE36F8B291AA922001E1B3E /* AppDelegate.swift */; };
+		2CE36F8E291AA922001E1B3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE36F8D291AA922001E1B3E /* SceneDelegate.swift */; };
+		2CE36F90291AA922001E1B3E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE36F8F291AA922001E1B3E /* SplashViewController.swift */; };
+		2CE36F95291AA923001E1B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE36F94291AA923001E1B3E /* Assets.xcassets */; };
+		2CE36FB1291AAD7B001E1B3E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE36FB0291AAD7B001E1B3E /* SplashView.swift */; };
+		2CE36FBE291AAF1A001E1B3E /* harrypotterloading.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CE36FBD291AAF1A001E1B3E /* harrypotterloading.json */; };
+		B74EFDAAACF2B63E79760994 /* Pods_HarryPotterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE988C88C00AE1650BADEB04 /* Pods_HarryPotterApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14783AD25C4844737ECFCB0F /* Pods-HarryPotterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterApp.release.xcconfig"; path = "Target Support Files/Pods-HarryPotterApp/Pods-HarryPotterApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C7DDD11291ABBBF00E5BF31 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		2C7DDD13291ABC4C00E5BF31 /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
+		2C7DDD17291ABF7A00E5BF31 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2C7DDD19291AC44E00E5BF31 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		2C7DDD20291AC54800E5BF31 /* StudentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewModel.swift; sourceTree = "<group>"; };
+		2C7DDD24291ACDD300E5BF31 /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		2C82B668291C062B005F06FE /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRYP__.TTF; sourceTree = "<group>"; };
+		2C82B66A291C19C6005F06FE /* hermoine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hermoine.json; sourceTree = "<group>"; };
+		2C9A1213291E9B0400FEC5F9 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A1216291E9C0B00FEC5F9 /* StudentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewModel.swift; sourceTree = "<group>"; };
+		2C9A1219291E9E0D00FEC5F9 /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
+		2C9A121B291EA7BC00FEC5F9 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		2CD500DA291D9F9100B9A005 /* StaffViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewModel.swift; sourceTree = "<group>"; };
+		2CD500DD291DA12200B9A005 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		2CD500E2291DA2B100B9A005 /* StaffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewCell.swift; sourceTree = "<group>"; };
+		2CE36F88291AA922001E1B3E /* HarryPotterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE36F8B291AA922001E1B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CE36F8D291AA922001E1B3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CE36F8F291AA922001E1B3E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2CE36F94291AA923001E1B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE36F99291AA923001E1B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE36FB0291AAD7B001E1B3E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		2CE36FBD291AAF1A001E1B3E /* harrypotterloading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = harrypotterloading.json; sourceTree = "<group>"; };
+		707637343010790E5452702C /* Pods-HarryPotterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterApp.debug.xcconfig"; path = "Target Support Files/Pods-HarryPotterApp/Pods-HarryPotterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EE988C88C00AE1650BADEB04 /* Pods_HarryPotterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE36F85291AA922001E1B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EFDAAACF2B63E79760994 /* Pods_HarryPotterApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C7DDD1B291AC4D900E5BF31 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DDD19291AC44E00E5BF31 /* Student.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		2C7DDD1F291AC53D00E5BF31 /* StudentViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DDD20291AC54800E5BF31 /* StudentsViewModel.swift */,
+			);
+			path = StudentViewModel;
+			sourceTree = "<group>";
+		};
+		2C7DDD22291ACDB300E5BF31 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36FB0291AAD7B001E1B3E /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		2C7DDD23291ACDBB00E5BF31 /* StudentsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2C7DDD24291ACDD300E5BF31 /* StudentsTableViewCell.swift */,
+			);
+			path = StudentsTableViewCell;
+			sourceTree = "<group>";
+		};
+		2C82B662291BFF41005F06FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A121B291EA7BC00FEC5F9 /* HexColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C82B665291C0442005F06FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C82B668291C062B005F06FE /* HARRYP__.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C9A1215291E9BFC00FEC5F9 /* StudentDetailViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A1216291E9C0B00FEC5F9 /* StudentDetailViewModel.swift */,
+			);
+			path = StudentDetailViewModel;
+			sourceTree = "<group>";
+		};
+		2C9A1218291E9E0200FEC5F9 /* StudentDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A1219291E9E0D00FEC5F9 /* StudentDetailView.swift */,
+			);
+			path = StudentDetailView;
+			sourceTree = "<group>";
+		};
+		2CD500D9291D9F8300B9A005 /* StaffViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2CD500DA291D9F9100B9A005 /* StaffViewModel.swift */,
+			);
+			path = StaffViewModel;
+			sourceTree = "<group>";
+		};
+		2CD500DC291DA11200B9A005 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				2CD500DD291DA12200B9A005 /* Staff.swift */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		2CD500E1291DA2A000B9A005 /* StaffTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2CD500E2291DA2B100B9A005 /* StaffTableViewCell.swift */,
+			);
+			path = StaffTableViewCell;
+			sourceTree = "<group>";
+		};
+		2CE36F7F291AA922001E1B3E = {
+			isa = PBXGroup;
+			children = (
+				2CE36F8A291AA922001E1B3E /* HarryPotterApp */,
+				2CE36F89291AA922001E1B3E /* Products */,
+				8E952B5F29D9D705AC34A847 /* Pods */,
+				F694EDFEF539A029DB4A58D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE36F89291AA922001E1B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F88291AA922001E1B3E /* HarryPotterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE36F8A291AA922001E1B3E /* HarryPotterApp */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F9F291AA940001E1B3E /* App */,
+				2CE36FA0291AA943001E1B3E /* Screen */,
+			);
+			path = HarryPotterApp;
+			sourceTree = "<group>";
+		};
+		2CE36F9F291AA940001E1B3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2C82B662291BFF41005F06FE /* Helpers */,
+				2CE36FBB291AAF0A001E1B3E /* Resources */,
+				2CE36FA4291AA95F001E1B3E /* Plists */,
+				2CE36FA3291AA959001E1B3E /* Assets */,
+				2CE36FA2291AA94F001E1B3E /* Delegates */,
+				2CE36FA1291AA94B001E1B3E /* Core */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2CE36FA0291AA943001E1B3E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36FA8291AA9A7001E1B3E /* Controller */,
+				2CE36FA7291AA9A0001E1B3E /* ViewModel */,
+				2CE36FA6291AA99D001E1B3E /* View */,
+				2CE36FA5291AA999001E1B3E /* Model */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		2CE36FA1291AA94B001E1B3E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36FAA291AAC66001E1B3E /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2CE36FA2291AA94F001E1B3E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F8B291AA922001E1B3E /* AppDelegate.swift */,
+				2CE36F8D291AA922001E1B3E /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2CE36FA3291AA959001E1B3E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F94291AA923001E1B3E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2CE36FA4291AA95F001E1B3E /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F99291AA923001E1B3E /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		2CE36FA5291AA999001E1B3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CD500DC291DA11200B9A005 /* Staff */,
+				2C7DDD1B291AC4D900E5BF31 /* Student */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CE36FA6291AA99D001E1B3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A1218291E9E0200FEC5F9 /* StudentDetailView */,
+				2CD500E1291DA2A000B9A005 /* StaffTableViewCell */,
+				2C7DDD23291ACDBB00E5BF31 /* StudentsTableViewCell */,
+				2C7DDD22291ACDB300E5BF31 /* SplashView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CE36FA7291AA9A0001E1B3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A1215291E9BFC00FEC5F9 /* StudentDetailViewModel */,
+				2CD500D9291D9F8300B9A005 /* StaffViewModel */,
+				2C7DDD1F291AC53D00E5BF31 /* StudentViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2CE36FA8291AA9A7001E1B3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36F8F291AA922001E1B3E /* SplashViewController.swift */,
+				2C7DDD11291ABBBF00E5BF31 /* StudentsViewController.swift */,
+				2C7DDD13291ABC4C00E5BF31 /* StaffViewController.swift */,
+				2C7DDD17291ABF7A00E5BF31 /* TabBarViewController.swift */,
+				2C9A1213291E9B0400FEC5F9 /* StudentDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CE36FAA291AAC66001E1B3E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2CE36FBB291AAF0A001E1B3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C82B665291C0442005F06FE /* Fonts */,
+				2CE36FBC291AAF0E001E1B3E /* Lottie */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CE36FBC291AAF0E001E1B3E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				2CE36FBD291AAF1A001E1B3E /* harrypotterloading.json */,
+				2C82B66A291C19C6005F06FE /* hermoine.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		8E952B5F29D9D705AC34A847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				707637343010790E5452702C /* Pods-HarryPotterApp.debug.xcconfig */,
+				14783AD25C4844737ECFCB0F /* Pods-HarryPotterApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F694EDFEF539A029DB4A58D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE988C88C00AE1650BADEB04 /* Pods_HarryPotterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE36F87291AA922001E1B3E /* HarryPotterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE36F9C291AA923001E1B3E /* Build configuration list for PBXNativeTarget "HarryPotterApp" */;
+			buildPhases = (
+				57E38D50EDA76CA0C44AB4C5 /* [CP] Check Pods Manifest.lock */,
+				2CE36F84291AA922001E1B3E /* Sources */,
+				2CE36F85291AA922001E1B3E /* Frameworks */,
+				2CE36F86291AA922001E1B3E /* Resources */,
+				E7AFCDC17A6532AC23B26497 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotterApp;
+			productName = HarryPotterApp;
+			productReference = 2CE36F88291AA922001E1B3E /* HarryPotterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE36F80291AA922001E1B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2CE36F87291AA922001E1B3E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CE36F83291AA922001E1B3E /* Build configuration list for PBXProject "HarryPotterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE36F7F291AA922001E1B3E;
+			productRefGroup = 2CE36F89291AA922001E1B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE36F87291AA922001E1B3E /* HarryPotterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE36F86291AA922001E1B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82B66B291C19C6005F06FE /* hermoine.json in Resources */,
+				2CE36F95291AA923001E1B3E /* Assets.xcassets in Resources */,
+				2CE36FBE291AAF1A001E1B3E /* harrypotterloading.json in Resources */,
+				2C82B669291C062B005F06FE /* HARRYP__.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57E38D50EDA76CA0C44AB4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AFCDC17A6532AC23B26497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HarryPotterApp/Pods-HarryPotterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HarryPotterApp/Pods-HarryPotterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HarryPotterApp/Pods-HarryPotterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE36F84291AA922001E1B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9A121C291EA7BC00FEC5F9 /* HexColor.swift in Sources */,
+				2C7DDD18291ABF7A00E5BF31 /* TabBarViewController.swift in Sources */,
+				2CD500DB291D9F9100B9A005 /* StaffViewModel.swift in Sources */,
+				2CE36F90291AA922001E1B3E /* SplashViewController.swift in Sources */,
+				2C7DDD14291ABC4C00E5BF31 /* StaffViewController.swift in Sources */,
+				2CE36FB1291AAD7B001E1B3E /* SplashView.swift in Sources */,
+				2C7DDD1A291AC44E00E5BF31 /* Student.swift in Sources */,
+				2CE36F8C291AA922001E1B3E /* AppDelegate.swift in Sources */,
+				2C9A121A291E9E0D00FEC5F9 /* StudentDetailView.swift in Sources */,
+				2C9A1217291E9C0B00FEC5F9 /* StudentDetailViewModel.swift in Sources */,
+				2C7DDD21291AC54800E5BF31 /* StudentsViewModel.swift in Sources */,
+				2C7DDD25291ACDD300E5BF31 /* StudentsTableViewCell.swift in Sources */,
+				2C9A1214291E9B0400FEC5F9 /* StudentDetailViewController.swift in Sources */,
+				2C7DDD12291ABBBF00E5BF31 /* StudentsViewController.swift in Sources */,
+				2CD500DE291DA12200B9A005 /* Staff.swift in Sources */,
+				2CD500E3291DA2B100B9A005 /* StaffTableViewCell.swift in Sources */,
+				2CE36F8E291AA922001E1B3E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CE36F9A291AA923001E1B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = HarryPotterApp/App/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE36F9B291AA923001E1B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = HarryPotterApp/App/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE36F9D291AA923001E1B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707637343010790E5452702C /* Pods-HarryPotterApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XR3YYGBUB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterApp/App/Plists/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartugenccan.HarryPotterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE36F9E291AA923001E1B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14783AD25C4844737ECFCB0F /* Pods-HarryPotterApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XR3YYGBUB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterApp/App/Plists/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartugenccan.HarryPotterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE36F83291AA922001E1B3E /* Build configuration list for PBXProject "HarryPotterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE36F9A291AA923001E1B3E /* Debug */,
+				2CE36F9B291AA923001E1B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE36F9C291AA923001E1B3E /* Build configuration list for PBXNativeTarget "HarryPotterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE36F9D291AA923001E1B3E /* Debug */,
+				2CE36F9E291AA923001E1B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE36F80291AA922001E1B3E /* Project object */;
+}
